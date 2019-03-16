@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'title' => "Vue.js Frontend With Laravel 5.8"
+    ]);
 });
