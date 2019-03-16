@@ -160,8 +160,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['title', 'developer']
+  props: ["title", "developer"]
 });
 
 /***/ }),
@@ -258,7 +309,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nhtml[data-v-4c2584f6], body[data-v-4c2584f6] {\n    background-color: #fff;\n    color: #939b9f;\n    font-family: 'Raleway', sans-serif;\n    font-weight: 100;\n    height: 100vh;\n    margin: 0;\n}\n.title[data-v-4c2584f6] {\n    font-size: 60px;\n}\n.subtitle[data-v-4c2584f6] {\n    font-size: 20px;\n}\n.full-height[data-v-4c2584f6] {\n    height: 100vh;\n}\n.flex-center[data-v-4c2584f6] {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n}\n.position-ref[data-v-4c2584f6] {\n    position: relative;\n}\n.top-right[data-v-4c2584f6] {\n    position: absolute;\n    right: 10px;\n    top: 18px;\n}\n.content[data-v-4c2584f6] {\n    text-align: center;\n}\n.m-b-md[data-v-4c2584f6] {\n    margin-bottom: 30px;\n}\n", ""]);
+exports.push([module.i, "\nhtml[data-v-4c2584f6],\r\nbody[data-v-4c2584f6] {\r\n  background-color: #fff;\r\n  color: #939b9f;\r\n  font-family: \"Raleway\", sans-serif;\r\n  font-weight: 100;\r\n  height: 100vh;\r\n  margin: 0;\n}\n.title[data-v-4c2584f6] {\r\n  font-size: 60px;\n}\n.subtitle[data-v-4c2584f6] {\r\n  font-size: 20px;\n}\n.full-height[data-v-4c2584f6] {\r\n  height: 100vh;\n}\n.flex-center[data-v-4c2584f6] {\r\n  align-items: center;\r\n  display: flex;\r\n  justify-content: center;\n}\n.position-ref[data-v-4c2584f6] {\r\n  position: relative;\n}\n.top-right[data-v-4c2584f6] {\r\n  position: absolute;\r\n  right: 10px;\r\n  top: 18px;\n}\n.content[data-v-4c2584f6] {\r\n  text-align: center;\n}\n.m-b-md[data-v-4c2584f6] {\r\n  margin-bottom: 30px;\n}\nbody[data-v-4c2584f6] {\r\n  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);\n}\n.contact-form[data-v-4c2584f6] {\r\n  background: #fff;\r\n  margin-top: 10%;\r\n  margin-bottom: 5%;\r\n  width: 70%;\n}\n.contact-form .form-control[data-v-4c2584f6] {\r\n  border-radius: 1rem;\n}\n.contact-image[data-v-4c2584f6] {\r\n  text-align: center;\n}\n.contact-image img[data-v-4c2584f6] {\r\n  border-radius: 6rem;\r\n  width: 11%;\r\n  margin-top: -3%;\r\n  -webkit-transform: rotate(29deg);\r\n          transform: rotate(29deg);\n}\n.contact-form form[data-v-4c2584f6] {\r\n  padding: 14%;\n}\n.contact-form form .row[data-v-4c2584f6] {\r\n  margin-bottom: -7%;\n}\n.contact-form h3[data-v-4c2584f6] {\r\n  margin-bottom: 8%;\r\n  margin-top: -10%;\r\n  text-align: center;\r\n  color: #0062cc;\n}\n.contact-form .btnContact[data-v-4c2584f6] {\r\n  width: 50%;\r\n  border: none;\r\n  border-radius: 1rem;\r\n  padding: 1.5%;\r\n  background: #dc3545;\r\n  font-weight: 600;\r\n  color: #fff;\r\n  cursor: pointer;\n}\n.btnContactSubmit[data-v-4c2584f6] {\r\n  width: 50%;\r\n  border-radius: 1rem;\r\n  padding: 1.5%;\r\n  color: #fff;\r\n  background-color: #0062cc;\r\n  border: none;\r\n  cursor: pointer;\n}\r\n", ""]);
 
 // exports
 
@@ -1535,7 +1586,10 @@ var render = function() {
   return _c("div", [
     _c(
       "nav",
-      { staticClass: "navbar navbar-expand-md navbar-light navbar-laravel" },
+      {
+        staticClass:
+          "navbar navbar-expand-lg navbar-dark bg-dark navbar-laravel"
+      },
       [
         _c("div", { staticClass: "container" }, [
           _c(
@@ -1597,15 +1651,103 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "flex-center position-ref full-height" }, [
-    _c("div", { staticClass: "content" }, [
-      _c("div", { staticClass: "title m-b-md" }, [
-        _vm._v("\n            " + _vm._s(_vm.title) + "\n        ")
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "container flex-center position-ref full-height" },
+      [
+        _c("div", { staticClass: "container contact-form" }, [
+          _c("div", { staticClass: "container contact-image" }, [
+            _c("img", {
+              attrs: {
+                src: "https://image.ibb.co/kUagtU/rocket_contact.png",
+                alt: "rocket_contact"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("form", { attrs: { method: "post" } }, [
+            _c("h3", [_vm._v("Drop a Message")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      name: "txtName",
+                      placeholder: "Your Name *",
+                      value: "",
+                      required: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      name: "txtEmail",
+                      placeholder: "Your Email *",
+                      value: "",
+                      required: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      name: "txtPhone",
+                      placeholder: "Your Phone Number *",
+                      value: "",
+                      required: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("input", {
+                    staticClass: "btnContact",
+                    attrs: {
+                      type: "submit",
+                      name: "btnSubmit",
+                      value: "Send Message"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("textarea", {
+                    staticClass: "form-control",
+                    staticStyle: { width: "100%", height: "150px" },
+                    attrs: {
+                      name: "txtMsg",
+                      placeholder: "Your Message *",
+                      required: ""
+                    }
+                  })
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
