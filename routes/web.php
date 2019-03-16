@@ -29,3 +29,7 @@ Route::get('/developer', function () {
         ]
     );
 });
+
+Route::get('/{any}', function(){
+    return view('main');
+})->where('any', '.*');
