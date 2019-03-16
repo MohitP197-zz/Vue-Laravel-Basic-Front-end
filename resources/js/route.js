@@ -5,7 +5,7 @@ import Vue from 'vue'
 
     import App from './components/App'
     import Welcome from './components/Welcome'
-    import Developer from './components/Developer'
+    import Page from './components/Page'
 
     const router = new VueRouter({
         mode: 'history',
@@ -17,9 +17,9 @@ import Vue from 'vue'
                 props: { title: "This is the SPA home" }
             },
             {
-                path: '/spa-developer',
-                name: 'developer',
-                component: developer,
+                path: '/spa-page',
+                name: 'page',
+                component: Page,
                 props: { 
                     title: "This is the SPA Developer Page",
                     author : {

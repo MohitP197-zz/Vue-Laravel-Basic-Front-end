@@ -6,15 +6,15 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="csrf-token" content="{{ csrf_token() }}">
 
-            <title>Outlet for SPA</title>
+            <title>Home</title>
 
             <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
             <link rel="stylesheet" type="text/css" href="css/app.css">
         </head>
         <body>
             <div id="app">
-                <main></main>
+                <app></app>
             </div>
-            <script type="text/javascript" src="js/vueapp.js"></script>
+            <script type="text/javascript" src="js/route.js"></script>
         </body>
     </html>

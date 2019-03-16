@@ -83,7 +83,7 @@
                 <!-- this is for sending title data from this page to welcome component  -->
                 <!-- <welcome :title="'Vue.js Frontend with Laravel 5.8'"></welcome> -->
                 <!-- this is for getting title content from web.php file -->
-                <welcome :title="'Vue.js Frontend with Laravel 5.8'"></welcome>
+                <welcome :title="'{{$title}}'"></welcome>
             </div>
             <script type="text/javascript" src="js/app.js"></script>
         </div>

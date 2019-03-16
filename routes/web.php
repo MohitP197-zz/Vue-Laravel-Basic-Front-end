@@ -17,8 +17,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/developer', function () {
-    return view('developer',
+Route::get('/page', function () {
+    return view('Page',
         [
             'title' => "Page 2 - About the developer",
             'developer' => json_encode([
@@ -31,5 +31,5 @@ Route::get('/developer', function () {
 });
 
 Route::get('/{any}', function(){
-    return view('main');
+    return view('index');
 })->where('any', '.*');

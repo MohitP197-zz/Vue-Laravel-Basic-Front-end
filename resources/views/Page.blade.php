@@ -6,13 +6,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="csrf-token" content="{{ csrf_token() }}">
 
-            <title>Page</title>
+            <title>Developer Page</title>
 
             <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         </head>
         <body>
             <div id="app">
-                <developer :title="'{{$title}}'" :developer="{{$developer}}"></developer>
+                <page :title="'{{$title}}'" :developer="{{$developer}}"></page>
             </div>
             <script type="text/javascript" src="js/app.js"></script>
         </body>
