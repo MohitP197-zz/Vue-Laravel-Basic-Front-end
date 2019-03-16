@@ -14,7 +14,7 @@ import Vue from 'vue'
                 path: '/home',
                 name: 'welcome',
                 component: Welcome,
-                props: { title: "This is the SPA home" }
+                props: { title: "This is the SPA Home page" }
             },
             {
                 path: '/spa-page',
@@ -22,7 +22,7 @@ import Vue from 'vue'
                 component: Page,
                 props: { 
                     title: "This is the SPA Developer Page",
-                    author : {
+                    developer : {
                         name : "Mohit Paudel",
                         role : "Web-Developer",
                         code : "Keep coding!!"

@@ -16479,7 +16479,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     name: 'welcome',
     component: _components_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"],
     props: {
-      title: "This is the SPA home"
+      title: "This is the SPA Home page"
     }
   }, {
     path: '/spa-page',
@@ -16487,7 +16487,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     component: _components_Page__WEBPACK_IMPORTED_MODULE_4__["default"],
     props: {
       title: "This is the SPA Developer Page",
-      author: {
+      developer: {
         name: "Mohit Paudel",
         role: "Web-Developer",
         code: "Keep coding!!"
