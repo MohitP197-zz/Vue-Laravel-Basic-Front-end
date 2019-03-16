@@ -16496,6 +16496,20 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
       title: "This is the SPA Home page"
     }
   }, {
+    path: '/about',
+    name: 'about',
+    component: _components_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"],
+    props: {
+      title: "This is the About Page"
+    }
+  }, {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+    props: {
+      title: "This is the Contact page"
+    }
+  }, {
     path: '/spa-page',
     name: 'page',
     component: _components_Page__WEBPACK_IMPORTED_MODULE_4__["default"],

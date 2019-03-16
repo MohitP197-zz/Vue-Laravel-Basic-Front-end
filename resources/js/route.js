@@ -17,6 +17,18 @@ import Vue from 'vue'
                 props: { title: "This is the SPA Home page" }
             },
             {
+                path: '/about',
+                name: 'about',
+                component: Welcome,
+                props: { title: "This is the About Page" }
+            },
+            {
+                path: '/contact',
+                name: 'contact',
+                component: Contact,
+                props: { title: "This is the Contact page" }
+            },
+            {
                 path: '/spa-page',
                 name: 'page',
                 component: Page,
