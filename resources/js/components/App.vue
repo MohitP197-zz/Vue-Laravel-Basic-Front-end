@@ -4,6 +4,8 @@
                 <div class="container">
                     <ul class="navbar-nav">
                         <router-link :to="{ name: 'welcome' }" class="nav-link">Home</router-link>
+                        <router-link :to="{ name: 'about' }" class="nav-link">About</router-link>
+                        <router-link :to="{ name: 'contact' }" class="nav-link">Contact</router-link>
                         <router-link :to="{ name: 'page' }" class="nav-link" >Spa-Developer</router-link>
                     </ul>
                 </div>
