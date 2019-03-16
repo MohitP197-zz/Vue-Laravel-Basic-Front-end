@@ -4,14 +4,13 @@
                 <div class="title m-b-md">
                     {{title}}
                 </div>
-
             </div>
         </div>
     </template>
 
     <script>
         export default {
-            props : ['title', 'developer']
+            props : ['title']
         }
     </script>
     <style scoped>

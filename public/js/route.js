@@ -105,9 +105,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['title', 'developer']
+  props: ['title']
 });
 
 /***/ }),
@@ -16885,7 +16884,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: '/about',
     name: 'about',
-    component: _components_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"],
+    component: _components_About__WEBPACK_IMPORTED_MODULE_5__["default"],
     props: {
       title: "This is the About Page"
     }

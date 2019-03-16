@@ -21,7 +21,7 @@ import Vue from 'vue'
             {
                 path: '/about',
                 name: 'about',
-                component: Welcome,
+                component: About,
                 props: { title: "This is the About Page" }
             },
             {
