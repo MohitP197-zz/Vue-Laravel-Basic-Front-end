@@ -5,9 +5,9 @@
                     This is vue.js on Laravel 5.8
                 </div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">View Laravel Docs</a>
-                    <a href="https://vuejs.org/v2/guide/">View Vue Docs</a>
-                    <a href="https://laracasts.com">Watch Videos</a>
+                    <a href="https://www.linkedin.com/in/mohit-paudel-0b3186140/">Contact developer via LinkedIn</a>
+                    <a href="https://github.com/MohitP197">Contact Developer Via GitHub</a>
+                    <a href="https://mohitpaudel.weebly.com">Via Website</a>
                 </div>
             </div>
         </div>
