@@ -137,6 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1591,6 +1592,10 @@ var render = function() {
           "navbar navbar-expand-lg navbar-dark bg-dark navbar-laravel"
       },
       [
+        _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
+          _vm._v("Vue Frontend")
+        ]),
+        _vm._v(" "),
         _c("div", { staticClass: "container" }, [
           _c(
             "ul",
