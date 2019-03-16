@@ -25,7 +25,7 @@ import Vue from 'vue'
                     author : {
                         name : "Mohit Paudel",
                         role : "Web-Developer",
-                        code : "Keey coding!!"
+                        code : "Keep coding!!"
                     }
                 }
             },    
