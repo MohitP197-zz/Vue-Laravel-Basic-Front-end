@@ -6,6 +6,8 @@ import Vue from 'vue'
     import App from './components/App'
     import Welcome from './components/Welcome'
     import Page from './components/Page'
+    import About from './components/About'
+    import Contact from './components/Contact'
 
     const router = new VueRouter({
         mode: 'history',

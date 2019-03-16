@@ -1774,11 +1774,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title', 'developer']
 });
@@ -1794,12 +1789,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -37748,23 +37737,6 @@ var render = function() {
     _c("div", { staticClass: "content" }, [
       _c("div", { staticClass: "title m-b-md" }, [
         _vm._v("\n            " + _vm._s(_vm.title) + "\n        ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "links" }, [
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Name : " + _vm._s(_vm.developer.name))
-        ]),
-        _c("br"),
-        _vm._v(" "),
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Role : " + _vm._s(_vm.developer.role))
-        ]),
-        _c("br"),
-        _vm._v(" "),
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Code : " + _vm._s(_vm.developer.code))
-        ]),
-        _c("br")
       ])
     ])
   ])
@@ -37795,23 +37767,6 @@ var render = function() {
     _c("div", { staticClass: "content" }, [
       _c("div", { staticClass: "title m-b-md" }, [
         _vm._v("\n            " + _vm._s(_vm.title) + "\n        ")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "links" }, [
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Name : " + _vm._s(_vm.developer.name))
-        ]),
-        _c("br"),
-        _vm._v(" "),
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Role : " + _vm._s(_vm.developer.role))
-        ]),
-        _c("br"),
-        _vm._v(" "),
-        _c("span", { staticClass: "subtitle" }, [
-          _vm._v("Code : " + _vm._s(_vm.developer.code))
-        ]),
-        _c("br")
       ])
     ])
   ])

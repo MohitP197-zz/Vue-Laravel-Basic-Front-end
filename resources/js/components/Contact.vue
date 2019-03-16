@@ -4,12 +4,6 @@
                 <div class="title m-b-md">
                     {{title}}
                 </div>
-
-                <div class="links">
-                    <span class="subtitle">Name : {{developer.name}}</span><br/>
-                    <span class="subtitle">Role : {{developer.role}}</span><br/>
-                    <span class="subtitle">Code : {{developer.code}}</span><br/>
-                </div>
             </div>
         </div>
     </template>
