@@ -1810,7 +1810,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  //props is for accessing the data from the welcome.blade
+  props: ['title']
+});
 
 /***/ }),
 
@@ -37548,38 +37551,36 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "flex-center position-ref full-height" }, [
+    _c("div", { staticClass: "content" }, [
+      _c("div", { staticClass: "title m-b-md" }, [
+        _vm._v("\n            " + _vm._s(_vm.title) + "\n        ")
+      ]),
+      _vm._v(" "),
+      _vm._m(0)
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex-center position-ref full-height" }, [
-      _c("div", { staticClass: "content" }, [
-        _c("div", { staticClass: "title m-b-md" }, [
-          _vm._v("\n            This is vue.js on Laravel 5.8\n        ")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "links" }, [
-          _c(
-            "a",
-            {
-              attrs: {
-                href: "https://www.linkedin.com/in/mohit-paudel-0b3186140/"
-              }
-            },
-            [_vm._v("Contact developer via LinkedIn")]
-          ),
-          _vm._v(" "),
-          _c("a", { attrs: { href: "https://github.com/MohitP197" } }, [
-            _vm._v("Contact Developer Via GitHub")
-          ]),
-          _vm._v(" "),
-          _c("a", { attrs: { href: "https://mohitpaudel.weebly.com" } }, [
-            _vm._v("Via Website")
-          ])
-        ])
+    return _c("div", { staticClass: "links" }, [
+      _c(
+        "a",
+        {
+          attrs: { href: "https://www.linkedin.com/in/mohit-paudel-0b3186140/" }
+        },
+        [_vm._v("Contact developer via LinkedIn")]
+      ),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "https://github.com/MohitP197" } }, [
+        _vm._v("Contact Developer Via GitHub")
+      ]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "https://mohitpaudel.weebly.com" } }, [
+        _vm._v("Via Website")
       ])
     ])
   }

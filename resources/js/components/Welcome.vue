@@ -2,7 +2,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    This is vue.js on Laravel 5.8
+                    {{title}}
                 </div>
                 <div class="links">
                     <a href="https://www.linkedin.com/in/mohit-paudel-0b3186140/">Contact developer via LinkedIn</a>
@@ -13,7 +13,10 @@
         </div>
     </template>
     <script>
-        export default {}
+        export default {
+            //props is for accessing the data from the welcome.blade
+            props: ['title']
+        }
     </script>
     <style scoped>
         html, body {

@@ -80,7 +80,7 @@
             @endif
 
             <div id="app">
-                <welcome :title="'Vue.js Frontend'"></welcome>
+                <welcome :title="'Vue.js Frontend with Laravel'"></welcome>
             </div>
             <script type="text/javascript" src="js/app.js"></script>
         </div>
