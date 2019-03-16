@@ -16,3 +16,16 @@ Route::get('/', function () {
         'title' => "Vue.js Frontend With Laravel 5.8"
     ]);
 });
+
+Route::get('/developer', function () {
+    return view('developer',
+        [
+            'title' => "Page 2 - About the developer",
+            'developer' => json_encode([
+                    "name" => "Mohit Paudel",
+                    "role" => "Web-developer",
+                    "code" => "Keep coding!!"
+            ])
+        ]
+    );
+});
